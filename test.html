@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout with Tailwind</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body class="flex items-center justify-center min-h-screen bg-gray-100">
+    <div class="grid grid-cols-4 grid-rows-6 gap-4 w-full max-w-5xl h-screen p-4">
+        <!-- Header spanning all columns -->
+        <header class="col-span-4 bg-blue-500 text-white p-5 text-center">HEADER</header>
+
+        <!-- Left Sidebar -->
+        <aside class="col-span-1 row-span-4 bg-green-500 text-white p-4 text-center">SIDEBAR</aside>
+
+        <!-- Main Content Area -->
+        <section class="col-span-2 row-span-4 bg-yellow-500 text-black p-4 text-center">MAIN CONTENT</section>
+
+        <!-- Right Sidebar -->
+        <aside class="col-span-1 row-span-4 bg-green-600 text-white p-4 text-center">SIDEBAR2</aside>
+
+        <!-- Footer spanning all columns -->
+        <footer class="col-span-4 bg-red-500 text-white p-4 text-center">FOOTER</footer>
+    </div>
+</body>
+</html>

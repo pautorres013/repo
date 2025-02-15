@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paulus Torres</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body class="bg-gradient-to-b from-[#27282c] to-[#141416] font-sans text-white min-h-screen font-light flex flex-col">
+    <!-- Navigation Bar -->
+    <div id="navbar-container"></div>
+
+    <!-- Preloader -->
+    <div id="preloader"
+        class="fixed inset-0 bg-gradient-to-b from-[#27282c] to-[#141416] flex items-center justify-center z-50 transition-opacity">
+        <div id="animation-container" class="relative w-100 h-100">
+            <img id="sequence" class="absolute inset-0 w-full h-full object-cover"
+                src="/video/logoanimation/1.png" alt="Loading...">
+        </div>
+    </div>
+    <!-- Page Content -->
+    <main class="flex-grow flex justify-center items-center text-center px-4">
+        <div>
+            <h1 class="font-bold text-5xl">Hi there!</h1>
+            <p class="mt-4 text-gray-400">Little things make big things happen.</p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-container"></div>
+    
+    <!-- JS for mobile-->
+    <script src="/js/navbar.js"></script>
+    <script src="/js/footer.js"></script>
+    <script src="/js/menu.js"></script>
+    <script src="/js/preloader.js"></script>
+</body>
+</html>
