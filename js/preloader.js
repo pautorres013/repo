@@ -12,7 +12,7 @@ function preloadImages() {
 
   for (let i = 1; i <= frameCount; i++) {
     const img = new Image();
-    img.src = `/video/logoanimation/${i}.png`; // Adjust path
+    img.src = `./video/logoanimation/${i}.png`; // Adjust path
     img.onload = () => {
       loadedImages++;
       if (loadedImages === frameCount) {
